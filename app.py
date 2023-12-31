@@ -53,3 +53,5 @@ def information():
 
     return render_template('information.html')
 
+if __name__ == '__main__':
+    app.run(debug=True)
